@@ -4,4 +4,4 @@
 # Docker run is container creation, so CMD will excute at the time of container creation which means it will excute at docker run not at the time of docker build
 FROM almalinux:9
 RUN dnf install nginx -y
-CMD ["ngnix" "-g" "daemon off;" ]
+CMD ["nginx", "-g", "daemon off;" ]
