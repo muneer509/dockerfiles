@@ -1,4 +1,4 @@
-FROM alamalinux
+FROM alamalinux:latest
 
 ENTRYPOINT [ "ping" ]
 CMD [ "yahoo.com" ]
