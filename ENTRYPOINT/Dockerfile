@@ -1,4 +1,6 @@
 FROM alamalinux:9
-CMD [ "google.com" ]
+
 ENTRYPOINT [ "ping" ]
 CMD [ "yahoo.com" ]
+CMD [ "google.com" ]
+CMD [ "youtube.com" ]
